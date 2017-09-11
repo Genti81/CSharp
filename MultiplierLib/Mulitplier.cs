@@ -12,5 +12,10 @@ namespace MultiplierLib
         {
             return l1 * l2;
         }
+
+        public long UsingFor(long f1, long f2)
+        {
+            return f1 * f2;
+        }
     }
 }

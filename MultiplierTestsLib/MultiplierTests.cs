@@ -16,5 +16,15 @@ namespace MultiplierTestsLib
             //Assert
             Assert.AreEqual(400, actual);
         }
+        [TestMethod]
+        public void UsingFor()
+        {
+            //Arrange
+            MultiplierLib.Mulitplier myMultiplier = new MultiplierLib.Mulitplier();
+            //Act
+            var actual = myMultiplier.UsingFor(20, 20);
+            //Assert
+            Assert.AreEqual(100, actual);
+        }
     }
 }

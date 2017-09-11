@@ -55,6 +55,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Demo01\Demo01.csproj">
+      <Project>{4db43a14-2539-4463-84e6-3e7c8c1cdb80}</Project>
+      <Name>Demo01</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MultiplierLib\MultiplierLib.csproj">
       <Project>{5ba10c8c-12e6-414e-83ad-cb9e763c1a2b}</Project>
       <Name>MultiplierLib</Name>
