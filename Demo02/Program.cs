@@ -10,7 +10,10 @@ namespace Demo02
     {
         static void Main(string[] args)
         {
+            while (age < 100)
+            {
 
+            }
         }
     }
 }

@@ -17,5 +17,17 @@ namespace MultiplierLib
         {
             return f1 * f2;
         }
+
+        public long While(long left, long right)
+        {
+            long total = 0;
+            long loopWhile = 0;
+            while (loopWhile < left)
+            {
+                total += right;
+                loopWhile++;
+            }
+            return total;
+        }
     }
 }
