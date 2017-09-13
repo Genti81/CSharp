@@ -12,17 +12,21 @@ namespace MultiplierLib
 
         public void AddFiveStrings()
         {
-
+            List.Add("Cesar");
+            List.Add("Bertil");
+            List.Add("Adam");
+            List.Add("Gentrit");
+            List.Add("Lina");
         }
 
         public void RemoveThirdString()
         {
-
+            List.RemoveAt(2);
         }
 
         public void Sort()
         {
-
+            List.Sort();
         }
     }
 }

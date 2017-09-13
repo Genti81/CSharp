@@ -34,13 +34,15 @@ namespace MultiplierTestsLib
             Console.WriteLine(sut.List[4]);
         }
         [TestMethod]
-        [ExpectedException(typeof(ArgumentOutOfRangeException))]
+        //[ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void Sort()
         {
             ListHandler sut = new ListHandler();
             sut.List.Add("Cesar");
             sut.List.Add("Bertil");
             sut.List.Add("Adam");
+            sut.List.Add("Gentrit");
+            sut.List.Add("Lina");
             sut.Sort();
             Assert.AreEqual("Adam", sut.List[0]);
         }
