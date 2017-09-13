@@ -15,6 +15,7 @@ namespace MultiplierLib
 
         public DateTime Add1000Days(DateTime theDate)
         {
+            //Add 1000 days
             return theDate.AddDays(1000);
         }
     }
