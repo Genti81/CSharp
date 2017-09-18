@@ -44,6 +44,7 @@
     <Compile Include="ListHandler.cs" />
     <Compile Include="Mulitplier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StoryTeller.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
