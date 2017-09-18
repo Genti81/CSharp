@@ -11,8 +11,8 @@ namespace VarukorgLib
 
         public Kund(string firstName, string lastName)
         {
-            this.firstName = $"Test";
-            this.lastName = $"Testsson";
+            this.FirstName = firstName;
+            this.LastName = lastName;
         }
     }
 }

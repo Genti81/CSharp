@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2017-09-18", "2017-09-18", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorytellerWindowsApp", "StorytellerWindowsApp\StorytellerWindowsApp.csproj", "{72956EF9-9031-44C4-B4FE-0E6B8FC44F90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircusLib", "CircusLib\CircusLib.csproj", "{0975090D-83E1-4C2E-B563-35083FCF1D3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircusTestsLib", "CircusTestsLib\CircusTestsLib.csproj", "{6CDDB104-B6B0-40C5-9CCA-6F399D9D429E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,14 @@ Global
 		{72956EF9-9031-44C4-B4FE-0E6B8FC44F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72956EF9-9031-44C4-B4FE-0E6B8FC44F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72956EF9-9031-44C4-B4FE-0E6B8FC44F90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0975090D-83E1-4C2E-B563-35083FCF1D3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0975090D-83E1-4C2E-B563-35083FCF1D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0975090D-83E1-4C2E-B563-35083FCF1D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0975090D-83E1-4C2E-B563-35083FCF1D3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CDDB104-B6B0-40C5-9CCA-6F399D9D429E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CDDB104-B6B0-40C5-9CCA-6F399D9D429E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CDDB104-B6B0-40C5-9CCA-6F399D9D429E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CDDB104-B6B0-40C5-9CCA-6F399D9D429E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
