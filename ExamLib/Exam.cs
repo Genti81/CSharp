@@ -37,17 +37,17 @@ namespace ExamLib
 
         public Dictionary<string, int> GenerateStatistics()
         {
-            Dictionary<string, int> GenStatistik = new Dictionary<string, int>();
+            Dictionary<string, int> VisaStatistik = new Dictionary<string, int>();
 
-            GenStatistik.Add("IG", 0);
-            GenStatistik.Add("G", 0);
-            GenStatistik.Add("VG", 0);
+            VisaStatistik.Add("IG", 0);
+            VisaStatistik.Add("G", 0);
+            VisaStatistik.Add("VG", 0);
 
             foreach (var student in StudentToDictionary)
             {
-                GenStatistik[student.Value]++;
+                VisaStatistik[student.Value]++;
             }
-            return GenStatistik;
+            return VisaStatistik;
         }
     }
 }
