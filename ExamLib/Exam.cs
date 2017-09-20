@@ -9,25 +9,27 @@ namespace ExamLib
     public class Exam
     {
 
-        private string Ämne;
+        private string courseName;
 
-        Dictionary<Student, string> StudentToDictionary = new Dictionary<Student, string>();
+        private Dictionary<Student, string> StudentGradeToDictionary = new Dictionary<Student, string>();
         List < Student > StudentsList = new List<Student>();
 
-        public Exam(string ämne)
+        public Exam(string courseName)
         {
-            this.Ämne = ämne;
+            this.courseName = courseName;
         }
 
         public void Assign(Student student)
         {
-            StudentToDictionary.Add(student, "G");
+            StudentGradeToDictionary.Add(student, "");
             StudentsList.Add(student);
         }
 
         public void Grade(Student student, string betyg)
         {
-            StudentToDictionary[student] = betyg;
+            if (!StudentGradeToDictionary.ContainsKey(student))
+                throw new UnassignedStudentException();
+            StudentGradeToDictionary[student] = betyg;
         }
 
         public void AreEqual(String statistics)
@@ -37,15 +39,15 @@ namespace ExamLib
 
         public Dictionary<string, int> GenerateStatistics()
         {
-            Dictionary<string, int> VisaStatistik = new Dictionary<string, int>();
-
+            //Dictionary<string, int> VisaStatistik = new Dictionary<string, int>();
+            var VisaStatistik = new Dictionary<string, int>();
             VisaStatistik.Add("IG", 0);
             VisaStatistik.Add("G", 0);
             VisaStatistik.Add("VG", 0);
 
-            foreach (var student in StudentToDictionary)
+            foreach (var studentGradeEntry in StudentGradeToDictionary)
             {
-                VisaStatistik[student.Value]++;
+                VisaStatistik[studentGradeEntry.Value]++;
             }
             return VisaStatistik;
         }
