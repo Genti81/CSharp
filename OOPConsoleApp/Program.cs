@@ -18,7 +18,14 @@ namespace OOPConsoleApp
             animal.MoveLeft();
             animal.MoveRight();
             Lion lion = new Lion();
+            TellAnimalToEatTwice(lion);
             lion.Eat();
+        }
+
+        private static void TellAnimalToEatTwice(Animal animal)
+        {
+            animal.Eat();
+            animal.Eat();
         }
 
         private static void StudentDemo()
