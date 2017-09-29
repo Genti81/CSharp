@@ -11,10 +11,10 @@ namespace Parter
         public string Name;
         public string JuridisktId;
 
-        public Part(string Name, string JuridisktId)
+        public Part(string name, string juridisktId)
         {
-            this.Name = Name;
-            this.JuridisktId = JuridisktId;
+            this.Name = name;
+            this.JuridisktId = juridisktId;
         }
         public override string ToString()
         {
