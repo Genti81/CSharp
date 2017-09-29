@@ -1,14 +1,13 @@
 ﻿namespace CarBuilderApp
 {
-    internal class Engine
+    internal class Engine :Part
     {
-        private int v1;
-        private decimal v2;
+        private int qubic;
+        
 
-        public Engine(int v1, decimal v2)
+        public Engine(int qubic, decimal cost) : base(cost)
         {
-            this.v1 = v1;
-            this.v2 = v2;
+            this.qubic = qubic;
         }
     }
 }

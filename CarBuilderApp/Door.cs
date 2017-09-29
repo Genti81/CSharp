@@ -1,12 +1,11 @@
 ﻿namespace CarBuilderApp
 {
-    internal class Door
+    internal class Door : Part
     {
-        private decimal v;
-
-        public Door(decimal v)
+    
+        public Door(decimal cost) : base(cost)
         {
-            this.v = v;
+            
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace CarBuilderApp
 {
@@ -11,10 +12,16 @@ namespace CarBuilderApp
             this.name = name;
         }
 
-        public List<object> Parts { get; internal set; }
-            = new List<object>();
+        public List<Part> Parts { get; internal set; }
+            = new List<Part>();
 
-        public decimal Cost { get; internal set; }
+        public decimal Cost {
+            get
+            {
+                return this.Parts.Sum(p => p.Cost) * 1.3M;
+            }
+                
+        }
 
         public override string ToString()
         {
