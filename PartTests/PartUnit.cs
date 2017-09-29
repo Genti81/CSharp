@@ -12,7 +12,8 @@ namespace PartTests
         {
             var sut = new Part("Gentrit Sahiti", "19810927-8898");
 
-            Assert.AreEqual("Gentrit Sahiti (19810927-8898)", sut.ToString());
+            Assert.AreEqual("Gentrit Sahiti (19810927-8898)", 
+                sut.ToString());
         }
     }
 }
