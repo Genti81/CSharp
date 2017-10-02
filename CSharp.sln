@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartTests", "PartTests\Part
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExperimentApp", "ExperimentApp\ExperimentApp.csproj", "{31BFCE85-FCCE-4802-985E-CF812289DE2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertToUppercaseApp", "ConvertToUppercaseApp\ConvertToUppercaseApp.csproj", "{79CA9759-A267-48DD-B7D0-0620A959DA76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -149,6 +151,10 @@ Global
 		{31BFCE85-FCCE-4802-985E-CF812289DE2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31BFCE85-FCCE-4802-985E-CF812289DE2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31BFCE85-FCCE-4802-985E-CF812289DE2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79CA9759-A267-48DD-B7D0-0620A959DA76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79CA9759-A267-48DD-B7D0-0620A959DA76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79CA9759-A267-48DD-B7D0-0620A959DA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79CA9759-A267-48DD-B7D0-0620A959DA76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,6 +166,7 @@ Global
 		{A4926DD8-8240-4678-B80F-F47F3EA7023C} = {8A72152A-152B-444F-AFFF-DD92F96B2703}
 		{5C383CCB-0E72-499A-96AE-809F34BFFB89} = {8A72152A-152B-444F-AFFF-DD92F96B2703}
 		{31BFCE85-FCCE-4802-985E-CF812289DE2D} = {8A72152A-152B-444F-AFFF-DD92F96B2703}
+		{79CA9759-A267-48DD-B7D0-0620A959DA76} = {8A72152A-152B-444F-AFFF-DD92F96B2703}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2CC5A597-8FB5-45C7-80D7-90F17C2FD6FC}
