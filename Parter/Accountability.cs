@@ -8,19 +8,19 @@ namespace Parter
 {
     public class Accountability
     {
-        public string Name;
+        public string roleName;
         public Part Responsible;
         public Part Commissioner;
 
         public Accountability(string Name, Part responsible, Part commissioner)
         {
-            this.Name = Name;
+            this.roleName = Name;
             this.Responsible = responsible;
             this.Commissioner = commissioner;
         }
         public override string ToString()
         {
-            return $"{Responsible.Name}, {Name} på {Commissioner.Name}"; 
+            return $"{Responsible.Name}, {roleName} på {Commissioner.Name}"; 
         }
     }
 }

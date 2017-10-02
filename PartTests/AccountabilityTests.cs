@@ -12,7 +12,17 @@ namespace PartTests
     {
 
         [TestMethod]
-        public void CoorectToString()
+        public void CorrectToString()
+        {
+            var gentritsahiti =
+                new Part("Gentrit Sahiti", "19810927-8898");
+            var someCompany = new Part("Company AB", "557616-6324");
+            var sut = new Accountability("VD", gentritsahiti, someCompany);
+            Assert.AreEqual("Gentrit Sahiti, VD på Company AB", sut.ToString());
+        }
+
+        [TestMethod]
+        public void CanHandleThreeAccountabilities()
         {
             var gentritsahiti =
                 new Part("Gentrit Sahiti", "19810927-8898");
