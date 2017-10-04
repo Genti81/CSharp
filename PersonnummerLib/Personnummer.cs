@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace PersonnummerLib
 {
-    public class Class1
+    public class Personnummer
     {
+        public string expected;
+        private string first;
+        private string last;
+        private string personnummer;
+
+        public string Process { get; set; }
+        public object Greeting { get; set; }
+    }
     }
 }
