@@ -8,13 +8,33 @@ namespace PersonnummerLib
 {
     public class Personnummer
     {
-        public string expected;
-        private string first;
-        private string last;
-        private string personnummer;
+        private string FirstNine;
 
-        public string Process { get; set; }
-        public object Greeting { get; set; }
-    }
+        public string LastDigit {
+            get
+            {
+                var total = 0;
+                for (int pos = 0; pos < FirstNine.Length; pos++)
+                {
+                    var digit = int.Parse(FirstNine[pos].ToString());
+                    if (pos % 2 == 0)
+                    {
+                       digit *= 2;
+
+                    if (digit > 9)
+                       digit -= 9;
+                    }
+                    total += digit;
+                }
+                var lastDigit = (10 - (total % 10)).ToString();
+                return LastDigit;
+            }
+    
+        }
+
+        public void Process(string firstNine)
+        {
+            this.FirstNine = firstNine;
+        }
     }
 }

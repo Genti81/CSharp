@@ -9,25 +9,21 @@ namespace PersonnummerLibTests
     {
 
         [TestMethod]
-        public void Man()
+        public void Gentrit()
         {
             var sut = new Personnummer();
-            sut.Process = "8109278898";
-            var expected = "1";
-            Assert.AreEqual(expected, sut.Greeting);
-
+            sut.Process("810927889");
+            var expected = "8";
+            Assert.AreEqual(expected, sut.LastDigit);
         }
 
-
         [TestMethod]
-        public void Kvinna()
+        public void Lina()
         {
             var sut = new Personnummer();
-            var personnummer = "198502173225";
-            sut.EnterDetails("Adelina", "Sahiti", personnummer);
-            var expected = "God morgon her Sahiti";
-            Assert.AreEqual(expected, sut.Greeting);
-
+            sut.Process("850217322");
+            var expected = "5";
+            Assert.AreEqual(expected, sut.LastDigit);
         }
     }
 }
