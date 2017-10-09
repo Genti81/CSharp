@@ -7,7 +7,6 @@ namespace PersonnummerLibTests
     [TestClass]
     public class PersonnummerGreeting
     {
-
         [TestMethod]
         public void Gentrit()
         {

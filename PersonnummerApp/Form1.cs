@@ -1,5 +1,5 @@
-﻿using GameDiceLib;
-using System;
+﻿using System;
+using PersonnummerLib;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,20 +9,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DiceGameGUI
+namespace PersonnummerApp
 {
     public partial class Form1 : Form
     {
-        private Game _game = new Game(new Random());
+        Personnummer simple = new Personnummer();
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void btnThrowDice_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            _game.ThrowDices();
-            //lblFeedback.Content = _game.ToString();
+            if(textBox1.Text.Length == 9)
+            {
+                simple.Process(textBox1.Text);
+                label1.Text = simple.LastDigit;
+            }
         }
     }
 }

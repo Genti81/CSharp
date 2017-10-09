@@ -27,7 +27,7 @@ namespace PersonnummerLib
                     total += digit;
                 }
                 var lastDigit = (10 - (total % 10)).ToString();
-                return LastDigit;
+                return lastDigit;
             }
     
         }

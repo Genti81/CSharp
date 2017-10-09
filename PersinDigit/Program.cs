@@ -11,14 +11,6 @@ namespace PersinDigit
         static void Main(string[] args)
         {
 
-          long personID = 19810927889;
-            19810927889
-                X- 
-              
-
-
-            if ()
-
         }
     }
 }
