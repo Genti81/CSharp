@@ -11,7 +11,7 @@ namespace RegExExpressionTests
         public void StringControlCheck()
         {
 
-                string pattern = @"\""?([^\""]*)\""? (\d{2}) (\d*.\d*) (\d*-\d*)";
+                string pattern = @"\""?([^\""]*)\""? (\d*) (\d*.\d*) (\d*-\d*)";
                 string input = @"""Mattias Asplund"" 46 35000.00 070-6186120";
 
                 foreach (Match m in Regex.Matches(input, pattern))
