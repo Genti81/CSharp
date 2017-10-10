@@ -11,7 +11,6 @@ namespace RegExExpressionTests
         [TestMethod]
         public void StringControlCheck()
         {
-
             string input = @"""Mattias Asplund"" 46 35000.00 070-6186120";
             string expected = "Asplund, Mattias (Lön: 35000.00) Telefon: 070 - 6186120 Föddelseår: 1971";
             var sut = new EmployeeConverter();
