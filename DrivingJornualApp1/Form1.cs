@@ -13,7 +13,7 @@ namespace DrivingJornualApp1
 {
     public partial class Form1 : Form
     {
-        private DrivingJornual driverJournal;
+        private DrivingJornual driverJournal = new DrivingJornual();
 
         public Form1()
         {
@@ -31,8 +31,8 @@ namespace DrivingJornualApp1
 
         private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
         {
-            int year = dateTimePicker1.Value.Year;
-            int month = dateTimePicker1.Value.Month;
+            int year = dateTimePicker2.Value.Year;
+            int month = dateTimePicker2.Value.Month;
             label1.Text = driverJournal.MilesDriven(year, month).ToString();
         }
     }
