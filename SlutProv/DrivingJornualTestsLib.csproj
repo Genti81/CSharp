@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{93EE181E-5937-4FE4-B423-9ABB27DD556D}</ProjectGuid>
+    <ProjectGuid>{488D6234-4EAD-459B-9813-7566BB813476}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CalculatorTests</RootNamespace>
-    <AssemblyName>CalculatorTests</AssemblyName>
+    <RootNamespace>SlutProv</RootNamespace>
+    <AssemblyName>SlutProv</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -48,16 +48,16 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalculatorTests.cs" />
+    <Compile Include="DrivingJornualTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CalculatorLib\CalculatorLib.csproj">
-      <Project>{5c398064-c3b1-4703-adc4-99521e843ecf}</Project>
-      <Name>CalculatorLib</Name>
+    <ProjectReference Include="..\DrivingJornualLIb\DrivingJornualLIb.csproj">
+      <Project>{c85a932c-4937-4ed0-bfa7-d82e0e24d2d0}</Project>
+      <Name>DrivingJornualLIb</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

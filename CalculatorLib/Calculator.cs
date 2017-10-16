@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CalculatorTests
+namespace CalculatorLib
 {
     public class Calculator
     {

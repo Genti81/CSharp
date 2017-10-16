@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplierTestsLib", "MultiplierTestsLib\MultiplierTestsLib.csproj", "{23D4A61B-FAF6-485A-AD01-B475BED7EAA0}"
 EndProject
@@ -96,6 +96,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorTestsLib", "CalculatorTests\CalculatorTestsLib.csproj", "{93EE181E-5937-4FE4-B423-9ABB27DD556D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLib", "CalculatorLib\CalculatorLib.csproj", "{5C398064-C3B1-4703-ADC4-99521E843ECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWinApp", "CalculatorWinApp\CalculatorWinApp.csproj", "{BA192716-AA99-4631-8E18-85FBD9BD6335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "First", "First\First.csproj", "{B8F9AF90-1F36-4F69-B476-49BFC866296E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrivingJornualTestsLib", "SlutProv\DrivingJornualTestsLib.csproj", "{488D6234-4EAD-459B-9813-7566BB813476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrivingJornualLIb", "DrivingJornualLIb\DrivingJornualLIb.csproj", "{C85A932C-4937-4ED0-BFA7-D82E0E24D2D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrivingJornualApp1", "DrivingJornualApp1\DrivingJornualApp1.csproj", "{C00D59D7-5B32-4E32-8901-9DA4010DA817}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -275,6 +285,26 @@ Global
 		{5C398064-C3B1-4703-ADC4-99521E843ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C398064-C3B1-4703-ADC4-99521E843ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C398064-C3B1-4703-ADC4-99521E843ECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA192716-AA99-4631-8E18-85FBD9BD6335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA192716-AA99-4631-8E18-85FBD9BD6335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA192716-AA99-4631-8E18-85FBD9BD6335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA192716-AA99-4631-8E18-85FBD9BD6335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F9AF90-1F36-4F69-B476-49BFC866296E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F9AF90-1F36-4F69-B476-49BFC866296E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F9AF90-1F36-4F69-B476-49BFC866296E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F9AF90-1F36-4F69-B476-49BFC866296E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{488D6234-4EAD-459B-9813-7566BB813476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{488D6234-4EAD-459B-9813-7566BB813476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{488D6234-4EAD-459B-9813-7566BB813476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{488D6234-4EAD-459B-9813-7566BB813476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C85A932C-4937-4ED0-BFA7-D82E0E24D2D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C85A932C-4937-4ED0-BFA7-D82E0E24D2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C85A932C-4937-4ED0-BFA7-D82E0E24D2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C85A932C-4937-4ED0-BFA7-D82E0E24D2D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C00D59D7-5B32-4E32-8901-9DA4010DA817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C00D59D7-5B32-4E32-8901-9DA4010DA817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C00D59D7-5B32-4E32-8901-9DA4010DA817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C00D59D7-5B32-4E32-8901-9DA4010DA817}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -306,6 +336,7 @@ Global
 		{0FA71DE5-13E0-447C-882F-E0CAD67C5687} = {68865AA5-A7B6-4F80-BF69-9D6AAFBAB1AA}
 		{93EE181E-5937-4FE4-B423-9ABB27DD556D} = {4F94E673-2EFD-436F-9CBD-5050AEA32CDE}
 		{5C398064-C3B1-4703-ADC4-99521E843ECF} = {4F94E673-2EFD-436F-9CBD-5050AEA32CDE}
+		{BA192716-AA99-4631-8E18-85FBD9BD6335} = {4F94E673-2EFD-436F-9CBD-5050AEA32CDE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2CC5A597-8FB5-45C7-80D7-90F17C2FD6FC}
