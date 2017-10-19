@@ -1,15 +1,14 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace SEInputTests
+namespace PracticeTestsLib
 {
     [TestClass]
-    public class VerCounterTests
+    public class UnitTest1
     {
         [TestMethod]
         public void TestMethod1()
         {
-           // Regexmatch
         }
     }
 }
