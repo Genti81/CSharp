@@ -13,11 +13,9 @@ namespace PlayerVSPlayer
             var ylli = new Player();
             var gentrit = new Player();
 
-            ylli.SetAttackPower(80);
+            ylli.SetAttackPower(20);
             ylli.AttackPlayer(gentrit);
 
-            Console.WriteLine("Step 5: \n Gentrit has currently: \n" + gentrit.GetHealth() + " HP");
-            Console.ReadLine();
         }
     }
 }
