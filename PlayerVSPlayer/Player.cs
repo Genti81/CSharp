@@ -21,7 +21,7 @@ namespace PlayerVSPlayer
         }
         internal void SetAttackPower(int attack)
         {
-            this.Damage += attack;
+            this.Damage = attack;
         }
         internal int GetHealth()
         {
